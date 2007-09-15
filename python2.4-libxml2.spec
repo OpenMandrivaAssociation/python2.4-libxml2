@@ -13,12 +13,12 @@ Source0:	ftp://xmlsoft.org/libxml2/libxml2-%{version}.tar.gz
 # (fc) 2.4.23-3mdk remove references to -L/usr/lib
 Patch1:		libxml2-2.4.23-libdir.patch
 BuildRequires:  gtk-doc
-BuildRequires:	python-devel = 2.4
+BuildRequires:	python2.4-devel
 BuildRequires:	readline-devel
 BuildRequires:	zlib-devel
 BuildRequires:	autoconf
-Requires: python = 2.4
-BuildRoot:	%_tmppath/%name-%version
+Requires:       python2.4
+BuildRoot:      %_tmppath/%name-%version
 
 %description
 The libxml2-python package contains a module that permits applications
