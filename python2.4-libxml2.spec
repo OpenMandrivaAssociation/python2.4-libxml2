@@ -1,5 +1,5 @@
 %define name	python2.4-libxml2
-%define version	2.6.29
+%define version	2.6.30
 %define release	%mkrel 1
 
 Summary:    Python 2.4 bindings for the libxml2 library
@@ -9,7 +9,7 @@ Release:	%{release}
 License:	MIT
 Group: Development/Python
 URL:		http://www.xmlsoft.org/
-Source0:	ftp://xmlsoft.org/libxml2/libxml2-%{version}.tar.gz
+Source0:	ftp://xmlsoft.org/libxml2/libxml2-%{version}.tar.bz2
 # (fc) 2.4.23-3mdk remove references to -L/usr/lib
 Patch1:		libxml2-2.4.23-libdir.patch
 BuildRequires:  gtk-doc
