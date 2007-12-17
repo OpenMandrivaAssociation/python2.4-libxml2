@@ -18,7 +18,6 @@ BuildRequires:	readline-devel
 BuildRequires:	zlib-devel
 BuildRequires:	autoconf
 Requires:       python2.4
-BuildRoot:      %_tmppath/%name-%version
 
 %description
 The libxml2-python package contains a module that permits applications
