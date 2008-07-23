@@ -1,6 +1,6 @@
 %define name	python2.4-libxml2
 %define version	2.6.30
-%define release	%mkrel 1
+%define release	%mkrel 3
 
 Summary:    Python 2.4 bindings for the libxml2 library
 Name:		%{name}
