@@ -1,0 +1,11 @@
+--- libxml2-2.4.23/configure.in.orig	2002-07-08 10:30:13.000000000 +0200
++++ libxml2-2.4.23/configure.in	2002-07-22 16:00:16.000000000 +0200
+@@ -147,7 +147,7 @@
+ AC_CHECK_FUNC(isinf, AC_DEFINE(HAVE_ISINF) , AC_CHECK_LIB(m, isinf,
+   [AC_DEFINE(HAVE_ISINF)]))
+ 
+-XML_LIBDIR='-L${libdir}'
++XML_LIBDIR=''
+ XML_INCLUDEDIR='-I${includedir}/libxml2'
+ 
+ dnl
